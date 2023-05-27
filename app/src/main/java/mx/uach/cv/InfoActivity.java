@@ -31,9 +31,12 @@ public class InfoActivity extends AppCompatActivity {
         final TextView email = findViewById(R.id.email);
         final TextView objective = findViewById(R.id.obj);
         final TextView xp = findViewById(R.id.xp);
+<<<<<<< HEAD
         final TextView acad = findViewById(R.id.academic);
         final TextView lang = findViewById(R.id.lang);
         final TextView knw = findViewById(R.id.know);
+=======
+>>>>>>> 3a5dee252905aff6a7915111e0c2b7f31d9ca311
 
 
 
@@ -58,9 +61,13 @@ public class InfoActivity extends AppCompatActivity {
                     email.setText(infocv.email);
                     objective.setText(infocv.objective);
                     xp.setText(infocv.experience);
+<<<<<<< HEAD
                     acad.setText(infocv.academic_preparation);
                     lang.setText(infocv.languages);
                     knw.setText(infocv.knowledge);
+=======
+
+>>>>>>> 3a5dee252905aff6a7915111e0c2b7f31d9ca311
 
                 }
             }, new Response.ErrorListener(){
