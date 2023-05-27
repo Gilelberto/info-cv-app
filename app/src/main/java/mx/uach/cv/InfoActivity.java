@@ -45,7 +45,7 @@ public class InfoActivity extends AppCompatActivity {
 
         if(Objects.equals(titleStr, "gil")){
             WebView webView = findViewById(R.id.photo);
-            webView.loadUrl("https://avatars.githubusercontent.com/u/24398402?v=4");
+            webView.loadUrl("https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-1/30724119_1742155442545504_3228271228410134528_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=nHgmnXdycC8AX8N_gtA&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfBiztu1jXTIFhmqIK8wCOGnmrpU-iJgvqR_VgeE_CJEHQ&oe=649907D3");
             RequestQueue queue = Volley.newRequestQueue(this);
             String url = "https://raw.githubusercontent.com/Gilelberto/info-cv-jsons/main/infoGil.json";
             StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
@@ -74,7 +74,7 @@ public class InfoActivity extends AppCompatActivity {
         }
         else if(Objects.equals(titleStr, "mau")){
             WebView webView = findViewById(R.id.photo);
-            webView.loadUrl("https://cdn-5.motorsport.com/images/mgl/0a9neZP0/s1200/sergio-perez-red-bull-racing-1.webp");
+            webView.loadUrl("https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-1/83179029_1373304766163730_309825823903318016_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=RMQ_3dGuY_wAX-Ixcx-&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfDqeu8_EtkE27JZA9NgGAPwbm1FLQHBrQQwvRFSmubXOg&oe=64991B69");
             RequestQueue queue = Volley.newRequestQueue(this);
             String url = "https://raw.githubusercontent.com/LagMau2/cv2/master/cv_mau.json";
             StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
@@ -104,7 +104,7 @@ public class InfoActivity extends AppCompatActivity {
         }
         else if(Objects.equals(titleStr, "sof")){
             WebView webView = findViewById(R.id.photo);
-            webView.loadUrl("https://avatars.githubusercontent.com/u/24398402?v=4");
+            webView.loadUrl("https://raw.githubusercontent.com/a348451/CV/master/yoo.jpeg");
             RequestQueue queue = Volley.newRequestQueue(this);
             String url = "https://raw.githubusercontent.com/a348451/shofo/main/shofocv.json";
             StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
