@@ -83,6 +83,14 @@ public class InfoActivity extends AppCompatActivity {
 
                     InfoCV infocv = new Gson().fromJson(response, InfoCV.class);
                     title.setText(infocv.name);
+                    phone.setText(infocv.phone);
+                    email.setText(infocv.email);
+                    objective.setText(infocv.objective);
+                    xp.setText(infocv.experience);
+                    acad.setText(infocv.academic_preparation);
+                    lang.setText(infocv.languages);
+                    knw.setText(infocv.knowledge);
+
                 }
             }, new Response.ErrorListener(){
 
@@ -104,6 +112,14 @@ public class InfoActivity extends AppCompatActivity {
                 public void onResponse(String response) {
                     InfoCV infocv = new Gson().fromJson(response, InfoCV.class);
                     title.setText(infocv.name);
+                    phone.setText(infocv.phone);
+                    email.setText(infocv.email);
+                    objective.setText(infocv.objective);
+                    xp.setText(infocv.experience);
+                    acad.setText(infocv.academic_preparation);
+                    lang.setText(infocv.languages);
+                    knw.setText(infocv.knowledge);
+
                 }
             }, new Response.ErrorListener(){
 
